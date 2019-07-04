@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="manager-auth" />
+        <module name="manager-discovery" />
+        <module name="manager-gateway" />
+        <module name="manager-mail" />
+        <module name="manager-menu" />
+        <module name="manager-role" />
+        <module name="manager-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="manager" target="1.6" />
+      <module name="manager-auth" target="1.6" />
+      <module name="manager-discovery" target="1.6" />
+      <module name="manager-gateway" target="1.6" />
+      <module name="manager-mail" target="1.6" />
+      <module name="manager-menu" target="1.6" />
+      <module name="manager-role" target="1.6" />
+      <module name="manager-router" target="1.6" />
+      <module name="manager-user" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="manager-discovery" options="" />
+      <module name="manager-menu" options="" />
+      <module name="manager-role" options="" />
+      <module name="manager-router" options="" />
+      <module name="manager-user" options="" />
+    </option>
+  </component>
+</project>

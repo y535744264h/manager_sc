@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: manager-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.96.41.241:3306/manager
+    username: root
+    password: 1234567
+mybatis:
+  #mapper文件的位置
+  mapper-locations: classpath:mapper/manager/*.xml
+  #为实体对象所在的包，跟数据库表一一对应
+  type-aliases-package: com.yanhao.manager.user.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka/
+
+server:
+  port: 8081

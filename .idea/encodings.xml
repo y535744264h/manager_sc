@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-discovery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-mail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-menu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-role" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-router" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/manager-user" charset="UTF-8" />
+  </component>
+</project>

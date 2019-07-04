@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: manager-mail
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.96.41.241:3306/manager?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 1234567
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+mybatis:
+  #mapper文件的位置
+  mapper-locations: classpath:mapper/manager/*.xml
+  #为实体对象所在的包，跟数据库表一一对应
+  type-aliases-package: com.yanhao.manager.mail.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+eureka:
+  client: 
+    service-url:
+      defaultZone: http://39.96.41.241:8081/eureka/,http://39.96.41.241:8082/eureka/
+server:
+  tomcat:
+    uri-encoding: UTF-8

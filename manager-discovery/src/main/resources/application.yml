@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: EurekaService
+server:
+  port: 8082
+eureka:
+  instance:
+    hostname: localhost
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 60
+    prefer-ip-address: true
+  client:
+    #用于该应用为注册中心，所以设置为False，代表不想注册中心注册自己
+    # register-with-eureka: false
+    #用于注册中心的职责就是维护服务事例，他并不需要去检索服务，所以设置为false
+    # fetch-registry: false
+
+    #service-url-zone: http://localhost:8082/eureka/
+    service-url:
+      defaultZone: http://localhost:8082/eureka/

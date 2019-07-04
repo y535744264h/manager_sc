@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/manager.iml" filepath="$PROJECT_DIR$/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-auth/manager-auth.iml" filepath="$PROJECT_DIR$/manager-auth/manager-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-discovery/manager-discovery.iml" filepath="$PROJECT_DIR$/manager-discovery/manager-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-gateway/manager-gateway.iml" filepath="$PROJECT_DIR$/manager-gateway/manager-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-mail/manager-mail.iml" filepath="$PROJECT_DIR$/manager-mail/manager-mail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-menu/manager-menu.iml" filepath="$PROJECT_DIR$/manager-menu/manager-menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-role/manager-role.iml" filepath="$PROJECT_DIR$/manager-role/manager-role.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-user/manager-user.iml" filepath="$PROJECT_DIR$/manager-user/manager-user.iml" />
+    </modules>
+  </component>
+</project>

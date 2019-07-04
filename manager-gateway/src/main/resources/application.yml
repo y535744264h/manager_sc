@@ -1,0 +1,22 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: manager-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://39.96.41.241:8081/eureka/,http://39.96.41.241:8082/eureka/
+
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      access-token-uri: http://localhost:8087/auth/oauth/token #令牌端点
+      user-authorization-uri: http://localhost:8087/auth/oauth/authorize #授权端点
+      client-id: zuul_server #OAuth2客户端ID
+      client-secret: secret #OAuth2客户端密钥
+    resource:
+      jwt:
+        key-value: springcloud123 #使用密方式，默认算法为HS256对称加
